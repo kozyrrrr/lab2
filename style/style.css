@@ -1,15 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 
 body {
-    background-color: #FFF8EE;
+    background: -webkit-linear-gradient(top, #FFF8EE, #ffffff);
 }
+
 .heading{
     font-family:"Roboto", sans-serif;
 }
 
-/* .top_menu {
-
-} */
 
 .top_menu li {
     padding-right: 30px;
@@ -17,12 +15,10 @@ body {
     height: 60;
     text-decoration: none;
     margin-right: 60px;
+    display: inline;
 }
 
-ul {
-    display: flex;
-    list-style:none;
-}
+
 header {
     width: 1300;
     height: 900;
