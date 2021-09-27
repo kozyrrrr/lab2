@@ -1,11 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap'); /* для h*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap'); /* для основного текста */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap'); /* для последней таблицы в footer */
 
 body {
     background: -webkit-linear-gradient(top, #FFF8EE, #ffffff);
 }
 
-.heading{
-    font-family:"Roboto", sans-serif;
+.overhead{
+    text-align: center;
+    font-size: 13px;
+}
+main h1{
+    font-family:"Roboto700", sans-serif;
+    text-align: center;
+    font-size: 110px;
+}
+main p{
+    font-family:"Roboto500", sans-serif;
 }
 
 
