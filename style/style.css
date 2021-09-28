@@ -6,27 +6,175 @@ body {
     background: -webkit-linear-gradient(top, #FFF8EE, #ffffff);
 }
 
+
+.top_menu li {
+    font-family: "Roboto500";
+    padding-right: 30px;
+    margin-right: 20px;
+    display: inline;
+    font-size: 15px;
+}
+.top_menu a:link{
+    text-decoration: none;
+    color: #322F2E;
+}
+
 .overhead{
+    font-family: "Roboto500",sans-serif;
+    font-size: 12px;
+}
+
+.heading {
+    font-family: "Roboto700",sans-serif;
+    font-size: 110px;
+}
+
+.underhead h5{
+    font-family: "Roboto500",sans-serif;
+    font-size: 21px;
+}
+
+.underhead p{
+    font-family: "Roboto500",sans-serif;
+    font-size: 16px;
+    color:#000000;
+}
+
+.blocks h5{
+    font-family: "Roboto700",sans-serif;
+    font-size: 42px;
+}
+
+.blocks p{
+    font-family: "Roboto500",sans-serif;
+    font-size: 16px;
+}
+.blocks button{
+    font-family: "Roboto500",sans-serif;
+    font-size: 15px;
+}
+
+.quiz h5{
+    font-family: "Roboto700",sans-serif;
+    font-size: 28px;
+}
+
+.quiz a{
+    font-family: "Roboto500",sans-serif;
+    font-size: 14px;    
+}
+
+.new_message{
+    font-family: "Roboto500",sans-serif;
+    font-size: 12px;
+}
+.quiz_right p {
+    font-family: "Roboto400",sans-serif;
+    font-size: 21px; 
+}
+
+.quiz_right button{
+    font-family: "Roboto500",sans-serif;
+    font-size: 15px; 
+}
+.promo2 h2{
+    font-family: "Roboto700",sans-serif;
+    font-size: 40px; 
+}
+
+.promo2 p{
+    font-family: "Roboto500",sans-serif;
+    font-size: 20px; 
+}
+
+.promo2 input{
+    font-family: "Roboto400",sans-serif;
+    font-size: 20px; 
+}
+
+.promo2 button{
+    font-family: "Roboto400",sans-serif;
+    font-size: 20px; 
+}
+
+.bottom_menu h2{
+    font-family: "Roboto500",sans-serif;
+    font-size: 13px; 
+}
+
+.bottom_menu a{
+    font-family: "Roboto400",sans-serif;
+    font-size: 12px; 
+}
+
+.bottom_inf h2{
+    font-family: "Roboto700",sans-serif;
+    font-size: 13px; 
+}
+
+.bottom_inf p{
+    font-family: "Roboto400",sans-serif;
+    font-size: 13px; 
+}
+
+.hided {
+    font-family: "Roboto700",sans-serif;
+    font-size: 13px; 
+    color:#D3D3D3;
+}
+
+
+
+
+
+
+
+
+/* 
+.overhead p{
     text-align: center;
     font-size: 13px;
+
 }
+
+.underhead p{
+    height: 99;
+    width: 524;
+    text-align: center;
+    font-size: 21px;
+}
+
+.underhead img{
+    width: 1140px;
+    height: 152px;
+    display: inline;
+}
+
 main h1{
     font-family:"Roboto700", sans-serif;
     text-align: center;
     font-size: 110px;
+
 }
 main p{
     font-family:"Roboto500", sans-serif;
 }
 
 
+
 .top_menu li {
+    font-family: "Roboto500";
     padding-right: 30px;
     width: 616;
     height: 60;
-    text-decoration: none;
-    margin-right: 60px;
+    margin-right: 20px;
     display: inline;
+    font-size: 15px;
+}
+
+.top_menu a:link {
+    text-decoration: none;
+    color: #322F2E;
 }
 
 
@@ -34,7 +182,7 @@ header {
     width: 1300;
     height: 900;
     margin:0 auto;
-}
+} */
 
 
 
