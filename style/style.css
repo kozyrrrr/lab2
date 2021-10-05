@@ -1,16 +1,17 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700;400;500&display=swap'); /* для последней таблицы в footer */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700;400;500&display=swap'); 
 
 body {
     background: -webkit-linear-gradient(top, #FFF8EE, #ffffff);
 }
 
 .top_menu li {
-    font-family: "Roboto500";
-    padding-right: 30px;
-    margin-right: 20px;
-    display: inline;
-    font-size: 15px;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 20px;
+color: #322F2E;
+   
 }
 .top_menu a:link{
     text-decoration: none;
@@ -18,109 +19,209 @@ body {
 }
 
 .overhead{
-    font-family: "Roboto500",sans-serif;
-    font-size: 12px;
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 13px;
+line-height: 25px;
+text-align: center;
 }
 
 .heading {
-    font-family: "Roboto700",sans-serif;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
     font-size: 110px;
+    line-height: 119px;
+    color: #322F2E;
+    text-align: center;
 }
 
 .underhead h5{
-    font-family: "Roboto500",sans-serif;
-    font-size: 21px;
+ font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 21px;
+line-height: 33px;
+text-align: center;
+color: #322F2E;
 }
 
 .underhead p{
-    font-family: "Roboto500",sans-serif;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
     font-size: 16px;
+    line-height: 20px;
+    text-align: center;
     color:#000000;
 }
 
+.last_button p{
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 20px;
+color: #C47344;
+}
+
 .blocks h5{
-    font-family: "Roboto",sans-serif;
-    font-weight: 700;
-    font-size: 42px;
+    
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 42px;
+line-height: 52px;
+text-align: center;
+color: #322F2E;
 }
 
 .blocks p{
-    font-family: "Roboto",sans-serif; 
-    font-weight: 500;
-    font-size: 16px;
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 28px;
+text-align: center;
+color: #322F2E;
 }
 .blocks button{
-    font-family: "Roboto500",sans-serif;
-    font-size: 15px;
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 20px;
+text-align: center;
+color: #000000;
 }
 
 .quiz h5{
-    font-family: "Roboto700",sans-serif;
-    font-size: 28px;
+ font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 32px;
+/* color: #FFFFFF; */
 }
 
+.quiz p{
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+/* color: #FFFFFF; */
+}
 .quiz a{
-    font-family: "Roboto500",sans-serif;
-    font-size: 14px;    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    /* color: #FFFFFF;  */
 }
 
 .new_message{
-    font-family: "Roboto500",sans-serif;
-    font-size: 12px;
+ font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 25px;
+text-align: center;
+/* color: #FFFFFF; */
 }
 .quiz_right p {
-    font-family: "Roboto400",sans-serif;
-    font-size: 21px; 
+ font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 21px;
+line-height: 33px;
+color: #322F2E;
 }
 
 .quiz_right button{
-    font-family: "Roboto500",sans-serif;
-    font-size: 15px; 
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    color: #000000;
 }
-.promo2 h2{
-    font-family: "Roboto700",sans-serif;
-    font-size: 40px; 
+.promo2 h2{ font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 54px;
+color: #1A1918;
 }
 
 .promo2 p{
-    font-family: "Roboto500",sans-serif;
-    font-size: 20px; 
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 32px;
+color: #322F2E;
 }
 
 .promo2 input{
-    font-family: "Roboto400",sans-serif;
-    font-size: 20px; 
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    color: rgba(0, 0, 0, 0.45);
 }
 
-.promo2 button{
+/* .promo2 button{
     font-family: "Roboto400",sans-serif;
     font-size: 20px; 
-}
+} */
 
 .bottom_menu h2{
-    font-family: "Roboto500",sans-serif;
-    font-size: 13px; 
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 20px;
+color: #333333;
 }
 
 .bottom_menu a{
-    font-family: "Roboto400",sans-serif;
-    font-size: 12px; 
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 20px;
+color: #313131;
 }
 
 .bottom_inf h2{
-    font-family: "Roboto700",sans-serif;
-    font-size: 13px; 
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+    color: #313131;
 }
 
 .bottom_inf p{
-    font-family: "Roboto400",sans-serif;
-    font-size: 13px; 
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 20px;
+color: #313131;
 }
 
 .hided {
-    font-family: "Roboto700",sans-serif;
-    font-size: 13px; 
-    color:#D3D3D3;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 20px;
+color: #D3D3D3;
 }
 
 
