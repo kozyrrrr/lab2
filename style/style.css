@@ -1,230 +1,224 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700;400;500&display=swap'); 
 
-body {
-    background: -webkit-linear-gradient(top, #FFF8EE, #ffffff);
+body
+{
+	background: -webkit-linear-gradient(top, #FFF8EE, #ffffff);
 }
-
-.top_menu li {
-font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 15px;
-line-height: 20px;
-color: #322F2E;
-   
+.top_menu li
+{
+	color: #322F2E;
+	font-family: Roboto;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: bold;
+	line-height: 20px;
 }
-.top_menu a:link{
-    text-decoration: none;
-    color: #322F2E;
+.top_menu a:link
+{
+	color: #322F2E;
+	text-decoration: none;
 }
-
-.overhead{
-    font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 13px;
-line-height: 25px;
-text-align: center;
+.overhead
+{
+	font-family: Roboto;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: bold;
+	line-height: 25px;
+	text-align: center;
 }
-
-.heading {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 110px;
-    line-height: 119px;
-    color: #322F2E;
-    text-align: center;
+.heading
+{
+	color: #322F2E;
+	font-family: Roboto;
+	font-size: 110px;
+	font-style: normal;
+	font-weight: bold;
+	line-height: 119px;
+	text-align: center;
 }
-
-.underhead h5{
- font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 21px;
-line-height: 33px;
-text-align: center;
-color: #322F2E;
+.underhead h5
+{
+	color: #322F2E;
+	font-family: Roboto;
+	font-size: 21px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 33px;
+	text-align: center;
 }
-
-.underhead p{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 20px;
-    text-align: center;
-    color:#000000;
+.underhead p
+{
+	color: #000000;
+	font-family: Roboto;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	line-height: 20px;
+	text-align: center;
 }
-
-.last_button p{
-    font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 16px;
-line-height: 20px;
-color: #C47344;
+.last_button p
+{
+	color: #C47344;
+	font-family: Roboto;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	line-height: 20px;
 }
-
-.blocks h5{
-    
-font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 42px;
-line-height: 52px;
-text-align: center;
-color: #322F2E;
+.blocks h5
+{
+	color: #322F2E;
+	font-family: Roboto;
+	font-size: 42px;
+	font-style: normal;
+	font-weight: bold;
+	line-height: 52px;
+	text-align: center;
 }
-
-.blocks p{
-    font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 28px;
-text-align: center;
-color: #322F2E;
+.blocks p
+{
+	color: #322F2E;
+	font-family: Roboto;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 28px;
+	text-align: center;
 }
-.blocks button{
-    font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 15px;
-line-height: 20px;
-text-align: center;
-color: #000000;
+.blocks button
+{
+	color: #000000;
+	font-family: Roboto;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: bold;
+	line-height: 20px;
+	text-align: center;
 }
-
-.quiz h5{
- font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 28px;
-line-height: 32px;
-/* color: #FFFFFF; */
+.quiz h5
+{
+	font-family: Roboto;
+	font-size: 28px;
+	font-style: normal;
+	font-weight: bold;
+	line-height: 32px;
 }
-
-.quiz p{
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 20px;
-/* color: #FFFFFF; */
+.quiz p
+{
+	font-family: Roboto;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 20px;
 }
-.quiz a{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 20px;
-    /* color: #FFFFFF;  */
+.quiz a
+{
+	font-family: Roboto;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 20px;
 }
-
-.new_message{
- font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 12px;
-line-height: 25px;
-text-align: center;
-/* color: #FFFFFF; */
+.new_message
+{
+	font-family: Roboto;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	line-height: 25px;
+	text-align: center;
 }
-.quiz_right p {
- font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 21px;
-line-height: 33px;
-color: #322F2E;
+.quiz_right p
+{
+	color: #322F2E;
+	font-family: Roboto;
+	font-size: 21px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 33px;
 }
-
-.quiz_right button{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 15px;
-    line-height: 20px;
-    color: #000000;
+.quiz_right button
+{
+	color: #000000;
+	font-family: Roboto;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: bold;
+	line-height: 20px;
 }
-.promo2 h2{ font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 40px;
-line-height: 54px;
-color: #1A1918;
+.promo2 h2
+{
+	color: #1A1918;
+	font-family: Roboto;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: bold;
+	line-height: 54px;
 }
-
-.promo2 p{
-font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 32px;
-color: #322F2E;
+.promo2 p
+{
+	color: #322F2E;
+	font-family: Roboto;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 32px;
 }
-
-.promo2 input{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 32px;
-    color: rgba(0, 0, 0, 0.45);
+.promo2 input
+{
+	color: rgba(0, 0, 0, 0.45);
+	font-family: Roboto;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 32px;
 }
-
-/* .promo2 button{
-    font-family: "Roboto400",sans-serif;
-    font-size: 20px; 
-} */
-
-.bottom_menu h2{
-font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 13px;
-line-height: 20px;
-color: #333333;
+.bottom_menu h2
+{
+	color: #333333;
+	font-family: Roboto;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 20px;
 }
-
-.bottom_menu a{
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 13px;
-line-height: 20px;
-color: #313131;
+.bottom_menu a
+{
+	color: #313131;
+	font-family: Roboto;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 20px;
 }
-
-.bottom_inf h2{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 13px;
-    line-height: 20px;
-    color: #313131;
+.bottom_inf h2
+{
+	color: #313131;
+	font-family: Roboto;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 20px;
 }
-
-.bottom_inf p{
-font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 13px;
-line-height: 20px;
-color: #313131;
+.bottom_inf p
+{
+	color: #313131;
+	font-family: Roboto;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 20px;
 }
-
-.hided {
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 13px;
-line-height: 20px;
-color: #D3D3D3;
+.hided
+{
+	color: #D3D3D3;
+	font-family: Roboto;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 20px;
 }
-
-
 
 
 
