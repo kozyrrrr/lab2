@@ -1,11 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700;400;500&display=swap'); 
 
-body
-{
+body{
 	background: -webkit-linear-gradient(top, #FFF8EE, #ffffff);
 }
-.top_menu li
-{
+.top_menu li{
 	color: #322F2E;
 	font-family: Roboto;
 	font-size: 15px;
@@ -13,52 +11,42 @@ body
 	font-weight: bold;
 	line-height: 20px;
 }
-.top_menu a:link
-{
+.top_menu a:link{
 	color: #322F2E;
 	text-decoration: none;
 }
-.overhead
-{
+.overhead{
 	font-family: Roboto;
 	font-size: 13px;
 	font-style: normal;
 	font-weight: bold;
 	line-height: 25px;
-	text-align: center;
 }
-.heading
-{
+.heading{
 	color: #322F2E;
 	font-family: Roboto;
 	font-size: 110px;
 	font-style: normal;
 	font-weight: bold;
 	line-height: 119px;
-	text-align: center;
 }
-.underhead h5
-{
+.underhead h5{
 	color: #322F2E;
 	font-family: Roboto;
 	font-size: 21px;
 	font-style: normal;
 	font-weight: 500;
 	line-height: 33px;
-	text-align: center;
 }
-.underhead p
-{
+.underhead p{
 	color: #000000;
 	font-family: Roboto;
 	font-size: 16px;
 	font-style: normal;
 	font-weight: bold;
 	line-height: 20px;
-	text-align: center;
 }
-.last_button p
-{
+.last_button p{
 	color: #C47344;
 	font-family: Roboto;
 	font-size: 16px;
@@ -66,80 +54,67 @@ body
 	font-weight: bold;
 	line-height: 20px;
 }
-.blocks h5
-{
+.blocks h5{
 	color: #322F2E;
 	font-family: Roboto;
 	font-size: 42px;
 	font-style: normal;
 	font-weight: bold;
 	line-height: 52px;
-	text-align: center;
 }
-.blocks p
-{
+.blocks p{
 	color: #322F2E;
 	font-family: Roboto;
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 500;
 	line-height: 28px;
-	text-align: center;
 }
-.blocks button
-{
+.blocks button{
 	color: #000000;
 	font-family: Roboto;
 	font-size: 15px;
 	font-style: normal;
 	font-weight: bold;
 	line-height: 20px;
-	text-align: center;
 }
-.quiz h5
-{
+.quiz h5{
 	font-family: Roboto;
 	font-size: 28px;
 	font-style: normal;
 	font-weight: bold;
 	line-height: 32px;
 }
-.quiz p
-{
+.quiz p{
 	font-family: Roboto;
 	font-size: 14px;
 	font-style: normal;
 	font-weight: normal;
 	line-height: 20px;
 }
-.quiz a
-{
+.quiz a{
 	font-family: Roboto;
 	font-size: 14px;
 	font-style: normal;
 	font-weight: 500;
 	line-height: 20px;
 }
-.new_message
-{
+.new_message{
 	font-family: Roboto;
 	font-size: 12px;
 	font-style: normal;
 	font-weight: bold;
 	line-height: 25px;
-	text-align: center;
 }
-.quiz_right p
-{
-	color: #322F2E;
+.quiz_right p{
+    	color: #322F2E;
 	font-family: Roboto;
 	font-size: 21px;
 	font-style: normal;
 	font-weight: 500;
 	line-height: 33px;
 }
-.quiz_right button
-{
+.quiz_right button{
 	color: #000000;
 	font-family: Roboto;
 	font-size: 15px;
@@ -147,8 +122,7 @@ body
 	font-weight: bold;
 	line-height: 20px;
 }
-.promo2 h2
-{
+.promo2 h2{
 	color: #1A1918;
 	font-family: Roboto;
 	font-size: 40px;
@@ -156,8 +130,7 @@ body
 	font-weight: bold;
 	line-height: 54px;
 }
-.promo2 p
-{
+.promo2 p{
 	color: #322F2E;
 	font-family: Roboto;
 	font-size: 20px;
@@ -165,8 +138,7 @@ body
 	font-weight: 500;
 	line-height: 32px;
 }
-.promo2 input
-{
+.promo2 input{
 	color: rgba(0, 0, 0, 0.45);
 	font-family: Roboto;
 	font-size: 20px;
@@ -174,8 +146,7 @@ body
 	font-weight: 500;
 	line-height: 32px;
 }
-.bottom_menu h2
-{
+.bottom_menu h2{
 	color: #333333;
 	font-family: Roboto;
 	font-size: 13px;
@@ -183,8 +154,7 @@ body
 	font-weight: 500;
 	line-height: 20px;
 }
-.bottom_menu a
-{
+.bottom_menu a{
 	color: #313131;
 	font-family: Roboto;
 	font-size: 13px;
@@ -192,8 +162,7 @@ body
 	font-weight: normal;
 	line-height: 20px;
 }
-.bottom_inf h2
-{
+.bottom_inf h2{
 	color: #313131;
 	font-family: Roboto;
 	font-size: 13px;
@@ -201,8 +170,7 @@ body
 	font-weight: normal;
 	line-height: 20px;
 }
-.bottom_inf p
-{
+.bottom_inf p{
 	color: #313131;
 	font-family: Roboto;
 	font-size: 13px;
@@ -210,8 +178,7 @@ body
 	font-weight: 500;
 	line-height: 20px;
 }
-.hided
-{
+.hided{
 	color: #D3D3D3;
 	font-family: Roboto;
 	font-size: 13px;
