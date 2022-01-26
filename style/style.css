@@ -89,7 +89,8 @@ header button {
     width: 50px;
     color: white;
     border-radius: 20px;
-    font: 12px 700 Roboto;
+    font-weight: 700;
+    font: 12px  Roboto;
 }
 
 .overhead-the-art {
@@ -194,7 +195,7 @@ header button {
     display: grid;
     grid-template-columns: 500px 500px;
     gap: 30px;
-    grid-template-rows: 2;
+    grid-template-rows: 2fr;
 }
 
 .blocks div {
