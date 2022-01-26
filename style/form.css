@@ -1,0 +1,71 @@
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+.form-block-item {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    height: 600px;
+    width: 600px;
+    margin: 20px
+}
+
+.form-item {
+    height: 70px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-radio {
+    padding-top: 20px;
+    display: flex;
+}
+
+.form-item input {
+    padding-left: 20px;
+    border: 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    height: 40px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.personal-info {
+    height: 500px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contact-info {
+    height: 500px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.buttons {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.buttons button {
+    margin: 0 20px;
+    color: white;
+    width: 150px;
+    height: 50px;
+    background: #F9A28F;
+    border-radius: 30px;
+}
+
+.time-call input {
+    margin-left: 20px;
+}

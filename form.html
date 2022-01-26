@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/form.css">
+    <link rel="stylesheet" href="node_modules/normalize.css">
+    </link>
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <img src="img/logo.svg" class="logo" alt="logo">
+        <nav>
+            <ul class="top_menu">
+                <li><a href="./index.html">What is arcarta?</a></li>
+                <li><a href="#">Solutions</a></li>
+                <li><a href="#">Resources</a></li>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Login</a></li>
+                <li><a href="#"><button class="button">Get started</button></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form data-netlify="true" name="data-netlify">
+            <div class="form">
+                <div class="form-block-item">
+                    <div class="personal-info">
+                        <span>Personal information</span>
+                        <div class="form-item">
+                            <span>Your name</span>
+                            <input placeholder="Enter name" />
+                        </div>
+                        <div class="form-item">
+                            <span>Password</span>
+                            <input type="password" placeholder="Enter password" />
+                        </div>
+                        <div>
+                            <span>Gender</span>
+                            <div class="input-radio">
+                                <input type="radio" id="male" name="gender" /><label for="male">Male</label>
+                                <input type="radio" id="female" name="gender" style="margin-left: 20px;" /><label for="female">Female</label>
+                            </div>
+                        </div>
+                        <div class="form-item">
+                            <span>Date of birth</span>
+                            <input type="date" placeholder="Enter name" />
+                        </div>
+                    </div>
+                </div>
+                <div class="form-block-item">
+                    <div class="contact-info">
+                        <span>Contact information</span>
+                        <div class="form-item">
+                            <span>Email</span>
+                            <input type="email" placeholder="Email" />
+                        </div>
+                        <div class="form-item">
+                            <span>Phone</span>
+                            <input type="number" placeholder="Phone number" />
+                        </div>
+                        <div class="time-call">
+                            <span>Time to call</span>
+                            <div style="padding-top: 30px">
+                                <input type="radio" style="margin: 5px;" id="morning" name="time" /><label for="morning">Morning</label>
+                                <input type="radio" id="afternoon" name="time" /><label for="afternoon">Afternoon</label>
+                                <input type="radio" id="evening" name="time" /><label for="evening">Evening</label>
+                                <input type="radio" id="night" name="time" /><label for="night">Night</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="buttons">
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="bottom_inf">
+                <img src="img/logo.svg" style="width: 150px; height: 30px;" alt="logo">
+                <h2>Our Customer Due Diligence platform helps you avoid<br/> fines or losing clients due to AML while protecting you<br/> from cybercrime.</h2>
+                <p>Approved Service Provider</p>
+                <img src="img/bada.svg" style="width: 76px; height: 76px;" alt="logo">
+                <p>In Partnership</p>
+                <img src="img/london.svg" style="width: 158px; height: 67px;" alt="logo">
+                <p class="hided">Registered with the Information Commissioner's<br/> Office (ICO) Registration number: ZA679248</p>
+                <p class="hided">© Arc-Pay Ltd 2021</p>
+            </div>
+            <div class="bottom_menu">
+                <h2>Links</h2>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Why arcarta</a></li>
+                    <li><a href="#">Success Stores</a></li>
+                    <li><a href="#">FAQ`s</a></li>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Join</a></li>
+                    <li><a href="#">Invite</a></li>
+                    <li><a href="#">Compliance Quiz</a></li>
+                    <li><a href="#">ID Document Quiz</a></li>
+                </ul>
+            </div>
+            <div class="bottom_menu">
+                <h2>Solutions</h2>
+                <ul>
+                    <li><a href="#">For Galleries</a></li>
+                    <li><a href="#">For Advisors</a></li>
+                    <li><a href="#">For Auctioneers</a></li>
+                    <li><a href="#">For Secure payments</a></li>
+                    <li><a href="#">For Buyers & Collectors</a></li>
+                    <li><a href="#">Online AML Training</a></li>
+                </ul>
+            </div>
+            <div class="bottom_menu">
+                <h2>Resources</h2>
+                <ul>
+                    <li><a href="#">Articles</a></li>
+                    <li><a href="#">Resources</a></li>
+                    <li><a href="#">Help Centre</a></li>
+                    <li><a href="#">The Bigger Picture</a></li>
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#">Brand Assets</a></li>
+                    <li>
+                        <div class="footer-new">
+                            <a href="#">The Art Market Report </a>
+                            <span>New</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="footer-end">
+            <img src="img/rect.svg" style="width: 161px;height: 76px; margin: 0;" alt="logo">
+            <div>
+                <p class="hided">Privacy & Terms</p>
+                <img src="img/tw.svg" alt="logo">
+                <img src="img/inst.svg" alt="logo">
+                <img src="img/you.svg" alt="logo">
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
