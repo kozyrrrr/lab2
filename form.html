@@ -34,17 +34,17 @@
                         <span>Personal information</span>
                         <div class="form-item">
                             <span>Your name</span>
-                            <input placeholder="Enter name" />
+                            <input placeholder="Enter name" type="text" name="name" />
                         </div>
                         <div class="form-item">
                             <span>Password</span>
-                            <input type="password" placeholder="Enter password" />
+                            <input type="password" placeholder="Enter password"  name="password" id="password" />
                         </div>
                         <div>
                             <span>Gender</span>
                             <div class="input-radio">
-                                <input type="radio" id="male" name="gender" /><label for="male">Male</label>
-                                <input type="radio" id="female" name="gender" style="margin-left: 20px;" /><label for="female">Female</label>
+                                <input type="radio" id="male" name="gender" value="M" /><label for="male">Male</label>
+                                <input type="radio" id="female" name="gender" value="F" style="margin-left: 20px;" /><label for="female">Female</label>
                             </div>
                         </div>
                         <div class="form-item">
@@ -67,10 +67,10 @@
                         <div class="time-call">
                             <span>Time to call</span>
                             <div style="padding-top: 30px">
-                                <input type="radio" style="margin: 5px;" id="morning" name="time" /><label for="morning">Morning</label>
-                                <input type="radio" id="afternoon" name="time" /><label for="afternoon">Afternoon</label>
-                                <input type="radio" id="evening" name="time" /><label for="evening">Evening</label>
-                                <input type="radio" id="night" name="time" /><label for="night">Night</label>
+                                <input type="radio" style="margin: 5px;" id="morning" name="time" value="M" /><label for="morning">Morning</label>
+                                <input type="radio" id="afternoon" name="time" /><label for="afternoon" value="A">Afternoon</label>
+                                <input type="radio" id="evening" name="time" /><label for="evening" value="E">Evening</label>
+                                <input type="radio" id="night" name="time" value="" /><label for="night" value="N">Night</label>
                             </div>
                         </div>
                     </div>
